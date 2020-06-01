@@ -1,0 +1,9 @@
+@import "./variables.css";
+
+body {
+	font-family: var(--main-font-primary);
+	font-size: 16px;
+	font-weight: var(--main-font-default);
+	margin: 0;
+	padding: 0;
+}

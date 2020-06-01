@@ -1,0 +1,14 @@
+:root {
+	/*Colors*/
+	--main--color-primary: #E8252B;
+	--main-color--clear: #fff;
+	--main-color-dark: #000;
+	--main-color--gray: #F1F4F6;
+	--main-color-light-gray: #FCFCFD;
+
+	/*Font*/
+	--main-font-primary : 'Roboto', sans-serif;
+	--main-font-title: 700;
+	--main-font-default: 400;
+	--main-font-detail: 300;
+}
