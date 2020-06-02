@@ -2,7 +2,7 @@ function App() {
 	return (
 		<div>
 			Hello, world!
-			
+			<RsrvButton name="chechi"/>
 		</div>
 		
 	);
