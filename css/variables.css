@@ -1,14 +1,22 @@
 :root {
 	/*Colors*/
-	--main--color-primary: #E8252B;
-	--main-color--clear: #fff;
+	--main-color-primary: #E8252B;
+	--main-color-successful: #409C8A;
+	--main-color-warning: #FBC746;
+	--main-color-clear: #FFF;
 	--main-color-dark: #000;
-	--main-color--gray: #F1F4F6;
-	--main-color-light-gray: #FCFCFD;
+	--main-color-dark-gray: #D8DAE5;
+	--main-color-soft-gray: #AAA;
+	--main-color-gray: #F1F4F6;
+	--main-color-shadow: #ededed;
 
 	/*Font*/
 	--main-font-primary : 'Roboto', sans-serif;
 	--main-font-title: 700;
 	--main-font-default: 400;
 	--main-font-detail: 300;
+
+	/*Size*/
+	--main-size-round: 4px;
+	--main-size-forms: 46px;
 }

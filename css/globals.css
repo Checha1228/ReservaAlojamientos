@@ -6,4 +6,48 @@ body {
 	font-weight: var(--main-font-default);
 	margin: 0;
 	padding: 0;
+	transition: all 0.2s ease-in;
+}
+
+article {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 90%;
+}
+
+select {
+	appearance: none;
+	-webkit-appearance: none;
+  	-moz-appearance: none;
+}
+
+input ,
+select {
+	background: var(--main-color-gray);
+	border: 0;
+	border-radius: var(--main-size-round);
+	font-size: 1rem;
+	font-family: var(--main-font-primary);
+	font-family: var(--main-font-primary);
+	font-size: 1rem;
+	font-weight: var(--main-font-detail);
+	height: var(--main-size-forms);
+	position: relative;
+}
+
+button {
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+
+img {
+	width: 100%;
+}
+
+.group-form {
+	margin-bottom: 14px;
+	position: relative;
+	width: 100%;
 }

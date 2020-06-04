@@ -1,0 +1,176 @@
+@import "./globals.css";
+
+
+/*RsrvHeader*/
+.content-logo {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 14px 0;
+	width: 90%;
+}
+.letter-logo-app {
+	color: var(--main-color-soft-gray);
+	font-size: 2.4rem;
+	font-weight: var(--main-font-detail);
+	letter-spacing: 6px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.letter-logo-app span {
+	font-weight: var(--main-font-title);
+}
+
+/*RsrvFilters*/
+.content-search-hotel {
+	background: var(--main-color-primary);
+	margin-bottom: 30px;
+	padding: 30px 0;
+}
+.title-name-country {
+	color: var(--main-color-clear);
+	font-size: 2rem;
+	font-weight: var(--main-font-title);
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.text-date-reservation {
+	color: var(--main-color-clear);
+	font-weight: var(--main-font-detail);
+	margin: 0;
+	text-align: center;
+}
+.text-date-reservation span {
+	font-weight: var(--main-font-title);
+}
+.content-filters-hotel {
+	margin-top: 30px;
+}
+
+/*RsrvDatepicker*/
+.content-datepicker {
+	display: flex;
+	flex-flow: column nowrap;
+}
+.custom-input {
+	box-sizing: border-box;
+	padding-left: 2.6rem;
+	width: 100%;
+}
+
+/*RsrvSelect*/
+.custom-select {
+	background-image: linear-gradient(45deg, transparent 50%, black 50%), linear-gradient(135deg, black 50%, transparent 50%);
+	background-position: calc(100% - 20px) calc(1em + 4px), calc(100% - 15px) calc(1em + 4px), calc(100% - .5em) .5em;
+	background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+	background-repeat: no-repeat;
+	padding: 0.5em 3.5em 0.5em 2.6em;
+	width: 100%;
+}
+
+/*RsrvButton*/
+.content-button {
+	margin: 0 0 20px;
+}
+.custom-button {
+	background: var(--main-color-primary);
+	border-radius: var(--main-size-round);
+	color: var(--main-color-clear);
+	font-family: var(--main-font-primary);
+	font-size: 1rem;
+	font-weight: var(--main-font-title);
+	height: var(--main-size-forms);
+	letter-spacing: 2px;
+	width: 100%;
+}
+.custom-button:hover {
+	background: transparent;
+	border: 1px solid var(--main-color-primary);
+	color: var(--main-color-primary);
+}
+
+/*Icons*/
+.zwicon-earth-alt,
+.zwicon-calendar-week,
+.zwicon-calendar-day,
+.zwicon-dollar-sign,
+.zwicon-stand-up {
+	color: var(--main-color-dark-gray);
+	font-size: 2rem;
+	font-weight: var(--main-font-default);
+	left: 8px;
+	position: absolute;
+	top: 6px;
+	z-index: 1;
+}
+
+/*RsrvCard*/
+.card-item-result {
+	background: var(--main-color-clear);
+	border-radius: 10px;
+	box-shadow:  13px 13px 20px var(--main-color-shadow), 
+				-13px -13px 20px var(--main-color-clear);
+	margin: 0 0 20px 0;
+}
+.header-card {
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+}
+.content-gallery-item {
+	height: 100%;
+	margin: 0;
+}
+.body-card,
+.footer-card {
+	box-sizing: border-box;
+	padding: 14px 20px;
+	width: 100%;
+}
+
+/*RsrvDetailItem*/
+.title-name-hotel {
+	font-size: 1.2rem;
+	font-weight: var(--main-font-title);
+	margin: 0;
+}
+.text-ubication-hotel {
+	color: var(--main-color-soft-gray);
+	font-size: 0.8rem;
+	font-weight: var(--main-font-detail);
+	margin: 0;
+}
+.text-ubication-hotel span {
+	font-weight: var(--main-font-title);
+}
+.content-subinfo-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 10px;
+}
+.content-info-rooms {
+	border-right: 1px solid var(--main-color-gray);
+	margin-right: 10px;
+}
+.title-name-info {
+	font-size: 0.8rem;
+	margin: 0;
+	text-transform: uppercase;
+}
+.text-number-rooms {
+	color: var(--main-color-soft-gray);
+	font-size: 0.8rem;;
+	font-weight: var(--main-font-detail);
+	margin: 0;
+}
+.content-description-item {
+	margin-top: 10px;
+}
+.text-description-item {
+	color: var(--main-color-soft-gray);
+	font-size: 0.8rem;
+	font-weight: var(--main-font-detail);
+	line-height: 1.2rem;
+	margin: 0;
+	text-align: justify;
+}

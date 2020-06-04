@@ -1,10 +1,15 @@
 function App() {
 	return (
 		<div>
-			Hello, world!
-			<RsrvButton name="chechi"/>
+			<RsrvHeader/>
+			<RsrvFilters/>
+			<article>
+				<RsrvCard name="chechi"/>
+				<RsrvCard name="chechi"/>
+				<RsrvCard name="chechi"/>
+				<RsrvCard name="chechi"/>
+			</article>
 		</div>
-		
 	);
 }
 

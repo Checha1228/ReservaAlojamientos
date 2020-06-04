@@ -1,6 +1,0 @@
-
-@import "./../../../css/variables.css";
-
-.custom-button {
-	background: var(--main-color-primary);
-}
