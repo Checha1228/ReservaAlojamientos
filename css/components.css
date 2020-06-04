@@ -13,6 +13,7 @@
 	font-size: 2.4rem;
 	font-weight: var(--main-font-detail);
 	letter-spacing: 6px;
+	line-height: 2.4rem;
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -29,8 +30,8 @@
 }
 .title-name-country {
 	color: var(--main-color-clear);
-	font-size: 2rem;
-	font-weight: var(--main-font-title);
+	font-size: 2.4rem;
+	font-weight: var(--main-font-detail);
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -47,6 +48,14 @@
 .content-filters-hotel {
 	margin-top: 30px;
 }
+@media screen and (min-width: 960px) {
+	.filters-hotel {
+		display: grid;
+		grid-gap: 14px;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		width: 100%;
+	}
+}
 
 /*RsrvDatepicker*/
 .content-datepicker {
@@ -57,6 +66,11 @@
 	box-sizing: border-box;
 	padding-left: 2.6rem;
 	width: 100%;
+}
+@media screen and (min-width: 960px) {
+	.content-datepicker {
+		flex-flow: row nowrap;
+	}
 }
 
 /*RsrvSelect*/

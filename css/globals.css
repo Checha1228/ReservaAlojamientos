@@ -51,3 +51,14 @@ img {
 	position: relative;
 	width: 100%;
 }
+
+
+/*MediaQueries*/
+@media screen and (min-width: 960px) {
+	.group-form {
+		margin-right: 14px;
+	}
+	.group-form:last-child {
+		margin-right: 0;
+	}
+}
